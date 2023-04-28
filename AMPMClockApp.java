@@ -16,7 +16,7 @@ public class AMPMClockApp {
                 for (int i = 0; i<=179; i++) {
                         clock.tick();
                         System.out.println(clock);
-                        //TimeUnit.SECONDS.sleep(1);
+                        TimeUnit.SECONDS.sleep(1);
                 }
         }
 }
